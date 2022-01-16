@@ -1,0 +1,22 @@
+.gridItem {
+  margin: auto;
+  height: 150px;
+  width: 200px;
+}
+
+.image {
+  border-radius: 5%;
+  height: 100px;
+  width: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.description {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

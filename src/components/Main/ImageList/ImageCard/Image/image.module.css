@@ -1,0 +1,18 @@
+.modalContent {
+  background: rgba(112, 112, 112, 0.9) !important;
+}
+
+.fullImage {
+  margin: 50px auto;
+}
+
+.modalDescription {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
