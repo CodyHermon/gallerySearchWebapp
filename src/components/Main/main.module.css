@@ -1,0 +1,12 @@
+.pagination {
+  display: flex;
+}
+
+.noImages {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: auto;
+  width: 50%;
+}

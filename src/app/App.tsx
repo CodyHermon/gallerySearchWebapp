@@ -1,7 +1,7 @@
 import './App.css';
 
 import { ChakraProvider } from '@chakra-ui/react'
-import { Main } from '../components/Main';
+import { Main } from '../components';
 
 function App() {
   return (

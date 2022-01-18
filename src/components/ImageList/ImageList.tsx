@@ -11,9 +11,8 @@ const ImageList = ({ images }: Props) => {
   return (
     <Grid 
       className={classes.imageList}
-      templateRows='repeat(2, 1fr)'
-      templateColumns='repeat(5, 1fr)' 
-      gap={4}
+      templateColumns='repeat(4, 1fr)' 
+      gap={6}
     >
         {images.map((image: any) => (
           <ImageCard key={image.id} image={image} />
