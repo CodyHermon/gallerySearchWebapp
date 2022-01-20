@@ -53,7 +53,7 @@ const Main = () => {
             <div className={classes.pagination}>
                 <Pagination pageCount={pageCount} onPageChange={handlePageClick} />
             </div>
-            <div className={classes.imageList}>
+            <div>
                 {currentItems && <ImageList images={currentItems} />}
             </div>
         </div>

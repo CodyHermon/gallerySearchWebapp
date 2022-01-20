@@ -1,4 +1,5 @@
 import { 
+    Box,
     GridItem, 
     useDisclosure,
 } from '@chakra-ui/react';
@@ -23,10 +24,10 @@ const ImageCard = ({ image }: Props) => {
 
   return (
     <>
-        <GridItem key={id} className={classes.gridItem}>
+        <Box key={id} className={classes.gridItem} height='100px'>
             <img className={classes.image} alt={description} src={urls.thumb} onClick={onOpen} />
             <p className={classes.description}>{altDescription}</p>
-        </GridItem>
+        </Box>
         <Image image={image} isOpen={isOpen} onClose={onClose} />
     </>
   );

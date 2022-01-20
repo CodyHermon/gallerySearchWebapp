@@ -1,4 +1,4 @@
-import { Grid } from '@chakra-ui/react';
+import { SimpleGrid } from '@chakra-ui/react';
 
 import { ImageCard } from './ImageCard';
 import classes from './imageList.module.css';
@@ -9,15 +9,16 @@ interface Props {
 
 const ImageList = ({ images }: Props) => {
   return (
-    <Grid 
+    <SimpleGrid 
       className={classes.imageList}
-      templateColumns='repeat(4, 1fr)' 
-      gap={6}
+      columns={4}
+      spacingY='100px'
+      spacingX='50px'
     >
         {images.map((image: any) => (
           <ImageCard key={image.id} image={image} />
         ))}
-    </Grid>
+    </SimpleGrid>
   );
 };
 
